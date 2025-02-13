@@ -90,7 +90,8 @@ const EventPost = ({ event }) => {
     className={`mr-1 w-5 h-5 transition-all ${
       isLiked ? "text-white" : "text-[#a01426] "
     }`}
-  />{event.comments}</button>
+  />{event.comments}
+  {isLiked ? event.likes + 1 : event.likes}</button>
         </div>
         <div className="flex space-x-2">
           <FaShare className="cursor-pointer text-xs sm:text-sm w-5 h-5" />

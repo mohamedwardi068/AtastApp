@@ -10,6 +10,7 @@ import Profile from "./components/Profile";
 import PrivacyPolicy from "./components/Privacy";
 
 import Settingss from "./components/Settings";
+import Atast from "./components/Atast";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route  inde path="/content" element={<Content />} />
         <Route  inde path="/privacy" element={<PrivacyPolicy />} />
         <Route  inde path="/settings" element={<Settingss />} />
+        <Route  inde path="/atastss" element={<Atast />} />
          
       </Routes>
     </Router>
